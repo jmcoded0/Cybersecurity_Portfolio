@@ -1,30 +1,28 @@
-# Hello, I'm MATHEW
+# Hello, I'm MATHEW | Aspiring SOC Analyst | Cloud Security Enthusiast
+
 <a href="https://www.linkedin.com/in/johnson-mathew-150262328/">
-  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-Brief Introduction
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+Recent graduate with a strong foundation in Python, and Cloud computing, and experience in developing security focused applications.
 
 ## Objective
 
-
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst. i'm also passionate about about ussing technology to safeguard people's security and financial well being.
+Actively seeking an entry-level position as a Tier 1 SOC Analyst, leveraging my knowledge of cybersecurity principles and cloud technologies to contribute to a proactive security posture. I am also driven to utilize technology to safeguard the financial well-being of users. I am eager to apply my analytical skills and problem-solving abilities to contribute to a dynamic SOC environment.
 
 ## Skills
 
+**Technical Skills:** Python, Bash, Linux, Networking Fundamentals, Git
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Security Auditing                             | [Click here for the report](https://shorturl.at/UI0re) |
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+**Cloud Skills:** Google Cloud Platform (GCP), Cloud Security Concepts, IAM
 
-## Tools
+**Security Skills:** Vulnerability Scanning, Incident Response Basics, Security Information and Event Management (SIEM)
+
+**Certifications:** ISC2 CC, Google Cybersecurity Certificate
+## Skills
+
+
+
 
 ### Network
 <div>
