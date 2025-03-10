@@ -18,7 +18,6 @@ Actively seeking an entry-level position as a Tier 1 SOC Analyst, leveraging my 
 
 **Security Skills:** Vulnerability Scanning, Incident Response Basics, Security Information and Event Management (SIEM)
 
-**Certifications:** ISC2 CC, Google Cybersecurity Certificate
 ## Skills
 
 
