@@ -127,7 +127,5 @@ _Last updated: Aug 26, 2025_
 ---
 
 ## 📬 Contact
-**Email:** johnsonmathew070@gmail.com  
-**LinkedIn:** https://www.linkedin.com/in/johnson-mathew-150262328/
-
-> ⭐ If this portfolio is helpful or interesting, consider starring the repos!
+**Email:** johnsonmatthewayobami@gmail.com  
+**LinkedIn:** https://www.linkedin.com/in/johnson-mathew-150262328
