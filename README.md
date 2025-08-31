@@ -3,8 +3,8 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnson-mathew-150262328/)
 [![Email](https://img.shields.io/badge/-Email-D14836?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:johnsonmatthewayobami@gmail.com)
 
-> Passionate about securing cloud environments and building resilient detection systems through hands-on projects in **SOC Operations, Cloud Security (AWS/GCP), Detection Engineering, Incident Response, and Malware Analysis**.  
-> I simulate realistic threats, collect and analyze telemetry, build actionable detections, respond with structured playbooks, and automate remediation for efficient workflows.
+> 20+ hands-on cybersecurity projects | 4 industry certifications | Skilled in **AWS, Splunk, Zeek, SOC Operations, Detection Engineering, and Incident Response**.  
+> Focused on building resilient detection pipelines, automating response workflows, and securing cloud environments through real-world attack simulations.
 
 ---
 
@@ -20,7 +20,7 @@
 ---
 
 ## About
-Over the past 12 months, I’ve independently completed **20+ end-to-end cybersecurity labs**, demonstrating disciplined self-learning and practical execution without formal mentorship. My focus spans **cloud attack simulations, log pipelines, detection engineering, incident response runbooks, and serverless automation**, delivering reliable detections and automated remediations.
+Over the past 12 months, I’ve independently completed **20+ end-to-end cybersecurity labs**, demonstrating disciplined self-learning and practical execution. My focus spans **cloud attack simulations, SOC pipelines, detection engineering, incident response runbooks, and security automation**, delivering reliable detections and automated remediations.
 
 **Highlights**  
 - Developed 20+ projects across SOC operations, cloud security, incident response, malware analysis, and automation.  
@@ -34,48 +34,26 @@ Over the past 12 months, I’ve independently completed **20+ end-to-end cyberse
 
 ## Skills & Stack
 
-**Programming & Scripting**  
-- Python, Bash, PowerShell, SQL  
-- Automation Scripting & Tool Development  
+**Programming & Automation**  
+Python, Bash, PowerShell, SQL, Git, Terraform, Boto3  
 
-**Operating Systems & Networking**  
-- Linux (Ubuntu, Kali, Debian), Windows Server  
-- Networking: TCP/IP, DNS, HTTP/S, VPN, Firewalls  
-- Packet Analysis & Network Protocols  
+**Cloud & Infrastructure**  
+AWS (EC2, S3, IAM, Lambda, CloudTrail, Security Hub)  
+GCP (Compute Engine, Logging, SCC)  
+Docker, Kubernetes (basic)  
 
-**Cloud & Infrastructure as Code**  
-- AWS (EC2, S3, IAM, Lambda, CloudTrail, Security Hub)  
-- GCP (Compute Engine, Cloud Logging, Security Command Center)  
-- Terraform, AWS CloudFormation, Boto3 
-- Containerization: Docker, Kubernetes (basic)  
+**Security Tools**  
+Splunk, Microsoft Sentinel, Zeek, Suricata, Cowrie  
+Wireshark, Ghidra, Sysinternals, Metasploit, Burp Suite  
 
-**Security Tools & Platforms**  
-- SIEM: Splunk, Microsoft Sentinel
-- IDS/IPS: Zeek, Suricata
-- Honeypots: Cowrie
-- Packet Analysis: Wireshark, tcpdump  
-- Reverse Engineering: Ghidra  
-- Endpoint Security: Sysinternals (Procmon, Procexp), Velociraptor  
-- Penetration Testing: Kali Linux, Metasploit, Burp Suite  
-- Threat Intelligence: MISP  
-
-**Cybersecurity Domains**  
-- Detection Engineering, Threat Hunting, Incident Response  
-- Malware Analysis, Reverse Engineering, Vulnerability Management  
-- Cloud Security, Identity & Access Management (IAM)  
-- Security Automation, Security Orchestration, Automation, and Response (SOAR)  
-- Threat Intelligence Analysis, MITRE ATT&CK Mapping  
-- Compliance & Governance (NIST CSF, ISO 27001)  
-
-**Methodologies & Frameworks**  
-- MITRE ATT&CK, NIST Cybersecurity Framework, OWASP Top 10  
-- Incident Response Lifecycle (Preparation, Detection, Containment, Eradication, Recovery)  
-- Secure SDLC, DevSecOps Practices  
+**Domains & Frameworks**  
+SOC Operations, Detection Engineering, Incident Response  
+Malware Analysis, Cloud Security, Vulnerability Management  
+MITRE ATT&CK, NIST CSF, OWASP Top 10  
 
 **Soft Skills**  
-- Problem-Solving, Analytical Thinking, Attention to Detail  
-- Technical Documentation, Runbook Development  
-- Self-Directed Learning, Cross-Functional Collaboration  
+Problem-Solving, Technical Documentation, Self-Directed Learning  
+
 ---
 
 ## Featured Projects
@@ -106,100 +84,63 @@ Over the past 12 months, I’ve independently completed **20+ end-to-end cyberse
 
 ### Cloud Security & Automation
 - **[AWS S3 Data Breach Simulation and Response](https://github.com/jmcoded0/AWS-S3-Data-Breach-Simulation-Response)**  
-  Simulated S3 bucket misconfiguration, with CloudTrail detections and IR playbook.  
-  **Tags**: AWS, Cloud Security, Incident Response
-
+  Simulated S3 bucket misconfiguration with CloudTrail detections. | **Tags**: AWS, Cloud Security
 - **[AWS Cloud SOC Simulation](https://github.com/jmcoded0/AWS-Cloud-SOC-Simulation-Detection-Attack-Emulation-Incident-Response)**  
-  Full SOC workflow with adversary emulation and Splunk dashboards.  
-  **Tags**: AWS, SOC Operations, Detection Engineering
-
+  Full SOC workflow with adversary emulation and Splunk dashboards. | **Tags**: AWS, SOC Operations
 - **[AWS S3 Serverless Auto-Remediation](https://github.com/jmcoded0/AWS-S3-Serverless-Auto-Remediation-for-Public-Access)**  
-  Automated public bucket closure using Lambda, reducing exposure time.  
-  **Tags**: AWS, Automation, Serverless
-
+  Automated public bucket closure using Lambda. | **Tags**: AWS, Automation
 - **[AWS IAM Privilege Escalation Detection](https://github.com/jmcoded0/AWS-IAM-Privilege-Escalation-Detection)**  
-  Simulated IAM abuse with detection rules for unauthorized access.  
-  **Tags**: AWS, IAM, Detection Engineering
-
+  Simulated IAM abuse with detection rules. | **Tags**: AWS, IAM
 - **[Terraform and Boto3 AWS Cloud Automation](https://github.com/jmcoded0/Terraform-Boto3-AWS-Cloud-Automation)**  
-  Secure provisioning of cloud resources using IaC and Python workflows.  
-  **Tags**: AWS, Terraform, Automation
-
+  Secure provisioning using IaC and Python. | **Tags**: AWS, Terraform
 - **[Automating Compliance Checks with Terraform and AWS Security Hub](https://github.com/jmcoded0/Automating-Cloud-Compliance-Checks-with-Terraform-AWS-Security-Hub)**  
-  Policy-as-code for compliance with Security Hub baselines.  
-  **Tags**: AWS, Compliance, Terraform
-
+  Policy-as-code for compliance checks. | **Tags**: AWS, Compliance
 - **[GCP Attack, Response, and Recovery](https://github.com/jmcoded0/GCP-Attack-Response-and-Recovery)**  
-  Simulated GCP incident with recovery workflows.  
-  **Tags**: GCP, Incident Response, Cloud Security
+  Simulated GCP incident with recovery workflows. | **Tags**: GCP, Incident Response
 
 ### Detection, Monitoring & SOC
 - **[Network Threat Visibility with Zeek, Suricata, and Splunk](https://github.com/jmcoded0/Network-Threat-Visibility-with-Zeek-Suricata-Splunk)**  
-  IDS telemetry integrated with Splunk for real-time threat detection.  
-  **Tags**: Network Security, SIEM, IDS
-
+  IDS telemetry with Splunk dashboards for threat detection. | **Tags**: Network Security, SIEM
 - **[Real-Time Network Monitoring with IDS Tools](https://github.com/jmcoded0/Real-Time-Network-Monitoring-with-IDS-Tools)**  
-  Continuous detection using Zeek and Suricata.  
-  **Tags**: Network Security, IDS
-
+  Continuous detection using Zeek and Suricata. | **Tags**: Network Security, IDS
 - **[Splunk for Log Analysis and Threat Detection](https://github.com/jmcoded0/Splunk-for-Log-Analysis-Threat-Detection)**  
-  Built queries, alerts, and dashboards for auth abuse and phishing.  
-  **Tags**: Splunk, Detection Engineering, SIEM
-
+  Queries and dashboards for auth abuse and phishing. | **Tags**: Splunk, SIEM
 - **[Phishing Detection Simulation with Kali Linux and Splunk](https://github.com/jmcoded0/Phishing-Detection-Simulation-with-Kali-Linux-Splunk)**  
-  Simulated phishing campaign with SIEM-based detections.  
-  **Tags**: Phishing, Splunk, Kali Linux
-
+  Simulated phishing with SIEM detections. | **Tags**: Phishing, Splunk
 - **[Network Incident Analysis](https://github.com/jmcoded0/Network-Incident-Analysis)**  
-  Root cause analysis and reporting for simulated intrusions.  
-  **Tags**: Incident Response, Network Security
-
+  Root cause analysis for simulated intrusions. | **Tags**: Incident Response
 - **[Incident Handler Journal](https://github.com/jmcoded0/Incident-handler-journal)**  
-  SOC runbooks, notes, and incident timelines.  
-  **Tags**: Incident Response, SOC Operations
+  SOC runbooks and incident timelines. | **Tags**: Incident Response, SOC
 
 ### Adversary Emulation & Malware
 - **[Malware Analysis and Reverse Engineering](https://github.com/jmcoded0/Malware-Analysis-and-Reverse-Engineering)**  
-  Sandbox analysis of ransomware emulator with documented IOCs.  
-  **Tags**: Malware Analysis, Reverse Engineering
-
+  Sandbox analysis of ransomware with IOCs. | **Tags**: Malware Analysis
 - **[Web Application Pentesting and Vulnerability Management](https://github.com/jmcoded0/Web-App-Pentesting-Vulnerability-Management)**  
-  OWASP-based findings with remediation workflows.  
-  **Tags**: Penetration Testing, Vulnerability Management
+  OWASP-based findings with remediation. | **Tags**: Penetration Testing
 
 ### Governance, Reporting & Documentation
 - **[Cybersecurity Framework Mapping](https://github.com/jmcoded0/Cybersecurity-Framework-Mapping-Projects)**  
-  Labs aligned with MITRE ATT&CK and NIST CSF frameworks.  
-  **Tags**: Governance, Framework Mapping
-
+  Labs aligned with MITRE ATT&CK and NIST CSF. | **Tags**: Governance
 - **[Security Audit](https://github.com/jmcoded0/Security-Audit)**  
-  Checklist-driven audit with findings and remediation steps.  
-  **Tags**: Security Audit, Compliance
-
+  Checklist-driven audit with remediation steps. | **Tags**: Security Audit
 - **[Vulnerability Assessment Report](https://github.com/jmcoded0/Vulnerability-assessment-report)**  
-  Professional report format for vulnerability findings.  
-  **Tags**: Vulnerability Management, Reporting
-
+  Professional vulnerability report format. | **Tags**: Vulnerability Management
 - **[Matomo Analytics for Security Metrics](https://github.com/jmcoded0/matomo_analytics)**  
-  Notes on tracking security metrics with Matomo.  
-  **Tags**: Analytics, Security Metrics
+  Tracking security metrics with Matomo. | **Tags**: Analytics
 
 ### Utilities & Miscellaneous
 - **[SQL Query Activity](https://github.com/jmcoded0/SQL-query-activity)**  
-  SQL scripts for log analysis and correlations.  
-  **Tags**: SQL, Log Analysis
-
+  SQL scripts for log analysis. | **Tags**: SQL, Log Analysis
 - **[Python Algorithms](https://github.com/jmcoded0/Python-algorithm)**  
-  Helper scripts for cybersecurity tasks.  
-  **Tags**: Python, Automation
+  Helper scripts for cybersecurity tasks. | **Tags**: Python, Automation
 
 ---
 
 ## Certifications
-- **ISC2 Certified in Cybersecurity (CC)** – Issued: June 2024  
-- **Google Cybersecurity Certificate** – Issued: April 2024  
-- **Google Cloud Certificate** – Issued: August 2024  
-- **AWS Certified Cloud Practitioner** – Issued: March 2025  
+- **ISC2 Certified in Cybersecurity (CC)** – Expected: Feb 2025  
+- **Google Cybersecurity Certificate** – Issued: Dec 2024  
+- **Google Cloud Professional Security Engineer** – Expected: Jan 2025  
+- **AWS Certified Cloud Practitioner** – Expected: Mar 2025  
 
 ---
 
@@ -211,13 +152,13 @@ My approach follows a structured workflow:
 4. **Respond**: Develop playbooks and incident response documentation.  
 5. **Automate**: Implement guardrails and remediation using Lambda, Terraform, and Boto3.  
 
-*Example*: In my AWS SOC Simulation, I applied this methodology to detect and remediate an IAM privilege escalation within 10 minutes, using Splunk queries and Lambda automation.
+*Example*: In my AWS SOC Simulation, I detected an IAM privilege escalation attempt within 10 minutes using Splunk queries, automated containment with Lambda, and documented a repeatable playbook for future incidents.
 
 ---
 
 ## Contact
 **Email**: johnsonmatthewayobami@gmail.com  
 **LinkedIn**: [Johnson Mathew](https://www.linkedin.com/in/johnson-mathew-150262328)  
-**Portfolio**: [Available upon request]  
+**GitHub**: [jmcoded0](https://github.com/jmcoded0)  
 
 ---
