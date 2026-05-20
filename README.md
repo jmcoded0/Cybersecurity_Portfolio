@@ -1,190 +1,219 @@
-# 🛡️ Johnson Mathew ~ Detection Engineering & Cloud Security Portfolio
+# Johnson Mathew — Cloud Security & Detection Engineering Portfolio
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnson-mathew-150262328/)  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnson-mathew-150262328/)
 [![Email](https://img.shields.io/badge/-Email-D14836?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:johnsonmatthewayobami@gmail.com)
 
-> Detection Engineer specializing in **SOC Operations, Cloud Security, Threat Detection, and Automated Incident Response**. Delivered **30+ hands-on projects**, including **enterprise-scale simulations** from **Bincom Academy Cybersecurity Intensive** (completed Jan 2026), focusing on **measurable detection coverage**, **reduced response times**, and **proactive automation**. 🚀
+Cloud Security & Detection Analyst focused on cloud infrastructure security, SIEM engineering, threat detection, and security automation. Built hands-on cybersecurity projects across AWS, GCP, Splunk, Zeek, Suricata, and cloud-native security environments through enterprise simulations, attack emulation, and automated incident response workflows.
+
+My work focuses on building practical detection pipelines, improving visibility across cloud and network environments, and developing scalable security operations through automation and monitoring.
 
 ---
 
-## 📑 Table of Contents
+# Table of Contents
 
-- [About](#about)  
-- [Featured Projects](#featured-projects)  
-- [Specialized Labs](#specialized-labs)  
-- [Technical Stack](#technical-stack)  
-- [Detection Engineering Methodology](#detection-engineering-methodology)  
-- [Certifications](#certifications)  
-- [Contact](#contact)  
-
----
-
-## 👤 About
-
-I build resilient **detection pipelines** and secure **cloud environments** through realistic attack simulations, **SIEM engineering**, and **automation**. My work emphasizes **quantifiable outcomes** like **faster threat detection**, **automated remediations**, and **high-fidelity alerting**—aligned with **MITRE ATT&CK** and **NIST CSF**.
-
-**Key Highlights**:  
-- Completed **Bincom Academy Cybersecurity Intensive** (Jan 2026): network fundamentals, vuln exploitation, web/endpoint defense, SIEM monitoring, cloud IAM, CTF, and full enterprise capstone.  
-- Engineered **30+ projects** demonstrating end-to-end detection engineering in **AWS, GCP, Splunk, Zeek/Suricata, and honeypots**.  
-- Achieved simulated reductions in **detection/response times** (**<10 min MTTD/MTTR**) and automated mitigations for common threats.  
-- Produced actionable **reports, dashboards, and playbooks** for scalable SOC operations.  
-
-*Last updated: March 2026* ✅
+- About
+- Current Focus
+- Featured Projects
+- Specialized Labs
+- Technical Stack
+- Security Engineering Principles
+- Detection Engineering Methodology
+- Certifications
+- Contact
 
 ---
 
-## ⭐ Featured Projects
+# About
 
-These top projects highlight **full lifecycle detection engineering**: simulate → detect → respond → automate.
+I build and secure cloud-native environments through realistic attack simulations, SIEM engineering, infrastructure monitoring, and security automation. My projects focus on improving detection visibility, validating incident response workflows, and strengthening cloud security operations across AWS-based and hybrid environments.
 
-### 🏆 [Bincom Academy Final Practical Test – Enterprise Security Simulation](https://github.com/jmcoded0/bincom-final-security-simulation)  
-Capstone from Bincom Academy Cybersecurity Intensive (Jan 2026). Built and defended a **small-scale enterprise environment** under structured testing.
+## Highlights
 
-**Key Achievements**:  
-- Deployed **DVWA web app + Cowrie honeypot** in segmented VMs with centralized logging to **Security Onion / ELK Stack**.  
-- Executed **multi-vector attacks**: Nmap recon, Metasploit exploits, brute-force; captured **IOCs** and Wireshark traffic.  
-- Implemented defenses: **ModSecurity WAF rules**, firewall policies, service hardening; re-tested to validate **100% mitigation** of simulated exploits.  
-- Engineered **SIEM dashboards** for real-time correlations across **port scans, web attacks, brute-force, and multi-source logs**.  
-- Delivered professional artifacts: **network diagram, attack/defense screenshots, security logs/dashboards, full incident report with RCA**.
-
-**Impact**: Demonstrated **full SOC lifecycle**; achieved **rapid detection (<5 min)** and effective containment in tests.  
-**Technologies**: DVWA, Cowrie, Security Onion, ELK Stack, Nmap, Metasploit, ModSecurity, Wireshark, Linux.  
-**Tags**: **Enterprise Simulation**, **SOC Operations**, **Threat Detection**, **Incident Response** ✅
+- Completed Bincom Academy Cybersecurity Intensive (Jan 2026)
+- Built 30+ practical cybersecurity and detection engineering projects
+- Hands-on experience with AWS, Splunk, Zeek, Suricata, Terraform, Security Onion, and cloud logging pipelines
+- Developed automated remediation workflows using AWS Lambda and Python
+- Built SIEM dashboards and detection logic for cloud, network, and infrastructure monitoring
+- Produced technical reports, investigation notes, dashboards, and incident response documentation
 
 ---
 
-### ☁️ [AWS Cloud SOC Simulation – Detection, Attack Emulation & Automated Response](https://github.com/jmcoded0/AWS-Cloud-SOC-Simulation-Detection-Attack-Emulation-Incident-Response)  
-End-to-end **cloud-native SOC pipeline** simulating adversary tactics with **automated remediation**.
+# Current Focus
 
-**Key Achievements**:  
-- Deployed **AWS environment** with **CloudTrail ingestion, IAM logging**, and **Terraform IaC** for repeatable setup.  
-- Emulated threats: **IAM privilege escalation, misconfigurations, lateral movement**.  
-- Engineered **Splunk detection rules and dashboards** for real-time alerts (e.g., unusual API calls, escalation attempts).  
-- Automated containment via **AWS Lambda functions** (e.g., revoke excessive permissions, isolate resources).  
-- Documented repeatable **incident playbooks and response timelines**.
-
-**Impact**: Reduced simulated incident containment by **~50%**; achieved **<10 min MTTD** for privilege escalations.  
-**Technologies**: AWS (EC2, IAM, CloudTrail, Lambda), Splunk, Terraform, Boto3, Python.  
-**Tags**: **Cloud SOC**, **Detection Engineering**, **Automation** ☁️
+- Cloud Infrastructure Security
+- Detection Engineering & SIEM Optimization
+- Security Automation with Terraform & Python
+- Threat Detection in AWS Environments
+- Incident Response & Security Monitoring
+- DevSecOps & Infrastructure Hardening
 
 ---
 
-### 🛡️ [Production-Grade Cloud Honeypot & Threat Intelligence Pipeline](https://github.com/jmcoded0/Production-Grade-Cloud-Honeypot-Threat-Intelligence-Pipeline)  
-Deployed **deceptive honeypot** to capture attacker TTPs and generate actionable intelligence.
+# Featured Projects
 
-**Key Achievements**:  
-- Launched **Cowrie honeypot** in AWS with secure forwarding of attacker logs to **Splunk**.  
-- Built dashboards visualizing attacker behaviors: login attempts, commands executed, session durations.  
-- Analyzed captured data to map **TTPs** and produce **threat intelligence reports**.  
-- Integrated alerts for **high-risk patterns** to enable proactive defenses.
+## [Bincom Academy Final Practical Test – Enterprise Security Simulation](https://github.com/jmcoded0/bincom-final-security-simulation)
 
-**Impact**: Captured and visualized **100+ simulated attacker sessions**; enabled early warning for similar TTPs in near-real-time.  
-**Technologies**: Cowrie, Splunk, AWS, Python.  
-**Tags**: **Honeypots**, **Threat Intelligence**, **Deception** 🕵️‍♂️
+Enterprise security simulation focused on attack detection, monitoring, and infrastructure hardening within a segmented lab environment.
 
----
+### Highlights
 
-### 🔍 [Network Threat Visibility with Zeek, Suricata & Splunk](https://github.com/jmcoded0/Network-Threat-Visibility-with-Zeek-Suricata-Splunk)  
-Integrated **network IDS telemetry** for comprehensive threat detection and visualization.
+- Deployed DVWA web application and Cowrie honeypot with centralized logging into Security Onion and ELK Stack
+- Simulated reconnaissance, brute-force, and exploitation attacks using Nmap and Metasploit
+- Built SIEM dashboards for detecting web attacks, brute-force activity, and multi-source security events
+- Implemented ModSecurity WAF rules, firewall policies, and service hardening controls
+- Produced attack analysis reports, network diagrams, screenshots, and incident documentation
 
-**Key Achievements**:  
-- Configured **Zeek and Suricata** for protocol analysis, file extraction, and signature detection.  
-- Ingested logs into **Splunk**; created correlation searches and dashboards for anomalies.  
-- Simulated intrusions and validated detections.  
-- Documented **IOCs** and mitigation recommendations.
-
-**Impact**: Achieved **real-time visibility**; detected brute-force and C2 patterns with **<5 min latency**.  
-**Technologies**: Zeek, Suricata, Splunk, Linux, Wireshark.  
-**Tags**: **Network Security**, **SIEM**, **IDS/IPS** 🔍
+**Technologies:** DVWA, Cowrie, Security Onion, ELK Stack, Nmap, Metasploit, ModSecurity, Wireshark, Linux
 
 ---
 
-### 🧠 [Malware Analysis & Reverse Engineering Lab](https://github.com/jmcoded0/Malware-Analysis-and-Reverse-Engineering)  
-In-depth **static/dynamic malware analysis** in controlled sandbox.
+## [AWS Cloud SOC Simulation – Detection, Attack Emulation & Automated Response](https://github.com/jmcoded0/AWS-Cloud-SOC-Simulation-Detection-Attack-Emulation-Incident-Response)
 
-**Key Achievements**:  
-- Analyzed ransomware/keylogger emulators using sandbox tools.  
-- Behavioral monitoring (Procmon), network capture (Wireshark), code disassembly (Ghidra).  
-- Extracted **IOCs** (hashes, C2 domains, file artifacts); documented persistence mechanisms.  
-- Recommended containment and remediation strategies.
+Cloud-native SOC simulation environment focused on AWS threat detection and automated incident response.
 
-**Impact**: Fully dissected malware; identified **10+ IOCs per sample** and proposed mitigations reducing infection risk.  
-**Technologies**: Kali Linux, Ghidra, Wireshark, Procmon, Sysinternals.  
-**Tags**: **Malware Analysis**, **Reverse Engineering** 💀
+### Highlights
 
----
+- Built AWS environment with CloudTrail ingestion, IAM logging, and Terraform-based infrastructure deployment
+- Simulated IAM privilege escalation, cloud misconfigurations, and suspicious API activity
+- Developed Splunk dashboards and detection rules for monitoring AWS events
+- Automated containment workflows using AWS Lambda and Python
+- Created repeatable incident response playbooks and detection validation workflows
 
-## 🛠 Specialized Labs
-
-### Bincom Academy Labs (Jan 2026)
-- [bincom-final-security-simulation](https://github.com/jmcoded0/bincom-final-security-simulation) – Capstone  
-- [bincom-cybersecurity-honeypot-lab](https://github.com/jmcoded0/bincom-cybersecurity-honeypot-lab)  
-- [Bincom-web-application-attack-and-defense-lab](https://github.com/jmcoded0/Bincom-web-application-attack-and-defense-lab)  
-- [bincom-vulnerability-scan-exploit-lab](https://github.com/jmcoded0/bincom-vulnerability-scan-exploit-lab)  
-- [bincom-cloud-privilege-escalation-lab](https://github.com/jmcoded0/bincom-cloud-privilege-escalation-lab)  
-
-### Cloud Security & Automation
-- [AWS-IAM-Privilege-Escalation-Detection](https://github.com/jmcoded0/AWS-IAM-Privilege-Escalation-Detection)  
-- [AWS-S3-Serverless-Auto-Remediation-for-Public-Access](https://github.com/jmcoded0/AWS-S3-Serverless-Auto-Remediation-for-Public-Access)  
-- [Terraform-Boto3-AWS-Cloud-Automation](https://github.com/jmcoded0/Terraform-Boto3-AWS-Cloud-Automation)  
-- [Automating-Cloud-Compliance-Checks-with-Terraform-AWS-Security-Hub](https://github.com/jmcoded0/Automating-Cloud-Compliance-Checks-with-Terraform-AWS-Security-Hub)  
-- [GCP-Attack-Response-and-Recovery](https://github.com/jmcoded0/GCP-Attack-Response-and-Recovery)  
-
-### SOC, Monitoring & Detection
-- [Splunk-for-Log-Analysis-Threat-Detection](https://github.com/jmcoded0/Splunk-for-Log-Analysis-Threat-Detection)  
-- [Phishing-Detection-Simulation-with-Kali-Linux-Splunk](https://github.com/jmcoded0/Phishing-Detection-Simulation-with-Kali-Linux-Splunk)  
-- [Real-Time-Network-Monitoring-with-IDS-Tools](https://github.com/jmcoded0/Real-Time-Network-Monitoring-with-IDS-Tools)  
-- [mini-soar-playbook](https://github.com/jmcoded0/mini-soar-playbook)  
-- [Incident-handler-journal](https://github.com/jmcoded0/Incident-handler-journal)  
-
-### Governance, Analysis & Reporting
-- [Web-App-Pentesting-Vulnerability-Management](https://github.com/jmcoded0/Web-App-Pentesting-Vulnerability-Management)  
-- [Cybersecurity-Framework-Mapping-Projects](https://github.com/jmcoded0/Cybersecurity-Framework-Mapping-Projects)  
-- [Security-Audit](https://github.com/jmcoded0/Security-Audit)  
-- [Vulnerability-assessment-report](https://github.com/jmcoded0/Vulnerability-assessment-report)  
-- [Network-Incident-Analysis](https://github.com/jmcoded0/Network-Incident-Analysis)  
+**Technologies:** AWS, Splunk, Terraform, CloudTrail, Lambda, Python, Boto3
 
 ---
 
-## 🧰 Technical Stack
+## [Production-Grade Cloud Honeypot & Threat Intelligence Pipeline](https://github.com/jmcoded0/Production-Grade-Cloud-Honeypot-Threat-Intelligence-Pipeline)
 
-| Category              | Tools & Skills                                      |
-|-----------------------|-----------------------------------------------------|
-| **Cloud**             | AWS (EC2, S3, IAM, Lambda, CloudTrail, Security Hub), GCP |
-| **SIEM & Monitoring** | Splunk, Security Onion, ELK Stack                   |
-| **Network & Detection**| Zeek, Suricata, Wireshark, Nmap, Sysinternals      |
-| **Offensive & Analysis**| Metasploit, Burp Suite, Ghidra, Kali Linux         |
-| **Automation**        | Python, Bash, Terraform, Boto3, Git, SQL            |
+Cloud-based honeypot environment designed for attacker behavior analysis and threat intelligence collection.
 
----
+### Highlights
 
-## 🧠 Detection Engineering Methodology
+- Deployed Cowrie honeypot in AWS with centralized log forwarding into Splunk
+- Built dashboards to visualize attacker activity, login attempts, and command execution patterns
+- Analyzed attacker TTPs and generated threat intelligence observations
+- Integrated alerting workflows for suspicious activity detection
 
-1. **Simulate** – Emulate real TTPs (Nmap, Metasploit, IAM abuse).  
-2. **Collect** – Aggregate **cloud, network, endpoint telemetry**.  
-3. **Detect** – Engineer **high-fidelity SIEM rules/dashboards**.  
-4. **Investigate** – Correlate **IOCs** and analyze artifacts.  
-5. **Respond** – Execute **automated playbooks/containment**.  
-6. **Automate** – Deploy **guardrails for proactive remediation**.
-
-*Example*: Bincom capstone achieved **<5 min detection** of correlated exploits via multi-source SIEM. ✅
+**Technologies:** AWS, Cowrie, Splunk, Python
 
 ---
 
-## 📜 Certifications
+## [Network Threat Visibility with Zeek, Suricata & Splunk](https://github.com/jmcoded0/Network-Threat-Visibility-with-Zeek-Suricata-Splunk)
 
-- **Bincom Academy Cybersecurity Program Completion – Jan 2026**  
-- **ISC2 Certified in Cybersecurity (CC)**  
-- **Google Cybersecurity Certificate**  
-- **Google Cloud Professional Security Engineer**  
-- **AWS Certified Cloud Practitioner**  
+Integrated network monitoring and IDS telemetry pipeline for threat visibility and alerting.
+
+### Highlights
+
+- Configured Zeek and Suricata for network traffic analysis and signature-based detection
+- Forwarded network telemetry into Splunk for centralized monitoring
+- Built dashboards and correlation searches for intrusion detection and anomaly monitoring
+- Simulated brute-force and reconnaissance attacks to validate detections
+
+**Technologies:** Zeek, Suricata, Splunk, Wireshark, Linux
 
 ---
 
-## 📬 Contact
+## [Malware Analysis & Reverse Engineering Lab](https://github.com/jmcoded0/Malware-Analysis-and-Reverse-Engineering)
 
-**Email**: johnsonmatthewayobami@gmail.com  
-**LinkedIn**: [Johnson Mathew](https://www.linkedin.com/in/johnson-mathew-150262328)  
-**GitHub**: [jmcoded0](https://github.com/jmcoded0)  
+Controlled malware analysis environment for investigating malicious behavior and extracting indicators of compromise.
 
-Open to **Detection Engineering, SOC Analyst, or Cloud Security roles** 🚀
+### Highlights
+
+- Performed static and dynamic malware analysis in isolated lab environments
+- Investigated process activity, persistence mechanisms, and network behavior
+- Extracted indicators of compromise including hashes, suspicious domains, and behavioral artifacts
+- Documented findings and remediation recommendations
+
+**Technologies:** Kali Linux, Ghidra, Procmon, Wireshark, Sysinternals
+
+---
+
+# Specialized Labs
+
+## Bincom Academy Labs
+
+- [bincom-final-security-simulation](https://github.com/jmcoded0/bincom-final-security-simulation)
+- [bincom-cybersecurity-honeypot-lab](https://github.com/jmcoded0/bincom-cybersecurity-honeypot-lab)
+- [Bincom-web-application-attack-and-defense-lab](https://github.com/jmcoded0/Bincom-web-application-attack-and-defense-lab)
+- [bincom-vulnerability-scan-exploit-lab](https://github.com/jmcoded0/bincom-vulnerability-scan-exploit-lab)
+- [bincom-cloud-privilege-escalation-lab](https://github.com/jmcoded0/bincom-cloud-privilege-escalation-lab)
+
+## Cloud Security & Automation
+
+- [AWS-IAM-Privilege-Escalation-Detection](https://github.com/jmcoded0/AWS-IAM-Privilege-Escalation-Detection)
+- [AWS-S3-Serverless-Auto-Remediation-for-Public-Access](https://github.com/jmcoded0/AWS-S3-Serverless-Auto-Remediation-for-Public-Access)
+- [Terraform-Boto3-AWS-Cloud-Automation](https://github.com/jmcoded0/Terraform-Boto3-AWS-Cloud-Automation)
+- [Automating-Cloud-Compliance-Checks-with-Terraform-AWS-Security-Hub](https://github.com/jmcoded0/Automating-Cloud-Compliance-Checks-with-Terraform-AWS-Security-Hub)
+- [GCP-Attack-Response-and-Recovery](https://github.com/jmcoded0/GCP-Attack-Response-and-Recovery)
+
+## SOC, Monitoring & Detection
+
+- [Splunk-for-Log-Analysis-Threat-Detection](https://github.com/jmcoded0/Splunk-for-Log-Analysis-Threat-Detection)
+- [Phishing-Detection-Simulation-with-Kali-Linux-Splunk](https://github.com/jmcoded0/Phishing-Detection-Simulation-with-Kali-Linux-Splunk)
+- [Real-Time-Network-Monitoring-with-IDS-Tools](https://github.com/jmcoded0/Real-Time-Network-Monitoring-with-IDS-Tools)
+- [mini-soar-playbook](https://github.com/jmcoded0/mini-soar-playbook)
+- [Incident-handler-journal](https://github.com/jmcoded0/Incident-handler-journal)
+
+## Governance, Analysis & Reporting
+
+- [Web-App-Pentesting-Vulnerability-Management](https://github.com/jmcoded0/Web-App-Pentesting-Vulnerability-Management)
+- [Cybersecurity-Framework-Mapping-Projects](https://github.com/jmcoded0/Cybersecurity-Framework-Mapping-Projects)
+- [Security-Audit](https://github.com/jmcoded0/Security-Audit)
+- [Vulnerability-assessment-report](https://github.com/jmcoded0/Vulnerability-assessment-report)
+- [Network-Incident-Analysis](https://github.com/jmcoded0/Network-Incident-Analysis)
+
+---
+
+# Technical Stack
+
+| Category | Tools & Technologies |
+|---|---|
+| Cloud Security | AWS (EC2, IAM, S3, Lambda, CloudTrail, Security Hub), GCP |
+| SIEM & Monitoring | Splunk, ELK Stack, Security Onion |
+| Network Security | Zeek, Suricata, Wireshark, Nmap |
+| Security Analysis | Metasploit, Burp Suite, Ghidra, Sysinternals |
+| Automation | Python, Bash, Terraform, Boto3, Git |
+
+---
+
+# Security Engineering Principles
+
+- Build security controls that improve visibility without disrupting operations
+- Prioritize automation for repetitive detection and response workflows
+- Focus on actionable alerting and measurable detection coverage
+- Treat logging and telemetry as foundational security layers
+- Continuously validate detections through testing and simulation
+- Design cloud environments using least privilege and defense-in-depth principles
+
+---
+
+# Detection Engineering Methodology
+
+1. Simulate realistic attack scenarios and adversary behavior
+2. Collect cloud, endpoint, and network telemetry
+3. Build detection logic and SIEM dashboards
+4. Investigate alerts and correlate indicators of compromise
+5. Execute containment and remediation workflows
+6. Automate repetitive security operations processes
+
+---
+
+# Certifications
+
+- Bincom Academy Cybersecurity Program Completion — Jan 2026
+- ISC2 Certified in Cybersecurity (CC)
+- Google Cloud Professional Security 
+- Google Cybersecurity Certificate
+- AWS Certified Cloud Practitioner
+
+---
+
+# Contact
+
+📧 Email: [johnsonmatthewayobami@gmail.com](mailto:johnsonmatthewayobami@gmail.com)
+
+💼 LinkedIn: [Johnson Mathew](https://www.linkedin.com/in/johnson-mathew-150262328)
+
+💻 GitHub: [jmcoded0](https://github.com/jmcoded0)
+
+Open to Cloud Security, Detection Engineering, SOC, and Infrastructure Security opportunities.
