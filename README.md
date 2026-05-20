@@ -1,4 +1,4 @@
-# Johnson Mathew — Cloud Security & Detection Engineering Portfolio
+# Johnson Mathew | Cloud Security & Detection Engineering Portfolio
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnson-mathew-150262328/)
 [![Email](https://img.shields.io/badge/-Email-D14836?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:johnsonmatthewayobami@gmail.com)
